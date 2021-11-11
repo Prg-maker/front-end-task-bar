@@ -1,0 +1,52 @@
+.createTaskContentWrapper{
+  background: #262626;
+  height: 250px;
+
+  position: relative;
+  top: 16rem;
+  right: 4rem;
+  border-radius:  20px 20px 20px 0px;
+  padding: 20px;
+  text-align: center;
+
+
+  h2{
+    padding-bottom: 1rem;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+
+
+    .inputCreate{
+      margin-bottom: 16px;
+      border: none;
+      outline: none;
+      background: transparent;
+    }
+
+    textarea{
+      border: none;
+      outline: none;
+      background: transparent;
+      min-height: 80px;
+      max-height: 80px;
+      resize: none;
+    }
+
+    .buttonCreate{
+      background: rgb(0, 122, 0);
+      border: none;
+      outline: none;
+      cursor: pointer;
+      opacity: 0.8;
+      border-radius: 4px;
+      padding: 2px;
+      &:hover{
+        transition: 0.9s;
+        opacity: 1;
+      }
+    }
+  }
+
+}
